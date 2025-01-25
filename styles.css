@@ -80,10 +80,22 @@ body {
     height: 100%;
 }
 
-input[type=text], input[type=email] {
+input {
     width: 100%;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 2px;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    filter: drop-shadow(2px 2px 3px gray);
+    border: 1px solid blue;
+    outline: 1px solid blue;
 }
 
 label {
@@ -92,7 +104,7 @@ label {
 }
 
 button{
-    background-color: seagreen;
+    background-color: #596D48;
     padding: 10px;
     color: white;
     font-weight: bold;
@@ -103,8 +115,13 @@ button{
     width: 50%;
 }
 
-a {
-    color: seagreen;
+.content a {
+    color: #596D48;
     font-weight: bold;
+    text-decoration:none;
+}
+
+.left-banner a {
+    color: lightgrey;
     text-decoration:none;
 }
