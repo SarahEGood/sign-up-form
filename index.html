@@ -7,6 +7,64 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="left-banner">
+            <img class='splash' src="resources/form-image.jpg" alt="Image of green leafed plant in close up photography">            </img>
+            <div class="image-text">Test Form</div>
+            <div class="image-text-footer">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></div>
+        </div>
+        <div class="content">
+            <div class="form-header">
+                <p>
+                    This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+                </p>
+                <p>
+                    You <i>know</i> you want to.
+                </p>
+
+            </div>
+            <div class="form-container">
+                <form action="POST">
+                    <h2>Let's do this!</h2>
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="fname">First Name:</label></br>
+                            <input type="text" id="fname">
+                        </div>
+                        <div class="input-group">
+                            <label for="lname">Last Name:</label></br>
+                            <input type="email" id="lname">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="email">Email:</label></br>
+                            <input type="text" id="email" pattern="^">
+                        </div>
+                        <div class="input-group">
+                            <label for="phone">Phone Number:</label></br>
+                            <input type="text" id="phone" pattern="^[0-9]*$">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="password">Password:</label></br>
+                            <input type="text" id="password">
+                        </div>
+                        <div class="input-group">
+                            <label for="password2">Confirm Password:</label></br>
+                            <input type="text" id="password2">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <button class="bigbutton">Create Account</button>
+                    </div>
+                </form>
+            </div>
+            <div class="form-footer">
+                Already have an account? <a href="#">Log in</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

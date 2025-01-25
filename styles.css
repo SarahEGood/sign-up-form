@@ -1,0 +1,79 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+}
+
+.left-banner, .splash {
+    width: max(33vw, 50px);
+}
+
+.left-banner {
+    position: relative;
+    text-align: center;
+}
+
+.image-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    font-size: xx-large;
+    color: white;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.image-text-footer {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    font-size: smaller;
+    color: white;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.content {
+    text-align: left;
+    display: block;
+    position: relative;
+    right: 0;
+    width: 100%;
+}
+
+.form-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.form-container {
+}
+
+.form-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+}
+
+.input-group {
+    width: 50%;
+    height: 100%;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    margin: 6px;
+}
