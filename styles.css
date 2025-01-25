@@ -58,7 +58,14 @@ body {
     font-size: large;
 }
 
-.form-container {
+.form-fields, .form-footer, .form-header {
+    padding: 10px 20px 20px 20px;
+}
+
+.form-fields {
+    margin-bottom: 30px;
+    background-color: white;
+    filter: drop-shadow(4px 4px 5px gray);
 }
 
 .form-row {
@@ -75,5 +82,29 @@ body {
 
 input[type=text], input[type=email] {
     width: 100%;
-    margin: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    color: grey;
+    font-weight: bold;
+}
+
+button{
+    background-color: seagreen;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgba(27, 31, 35, .15);
+    filter: drop-shadow(2px 2px 3px gray);
+    border-radius: 6px;
+    font-size: medium;
+    width: 50%;
+}
+
+a {
+    color: seagreen;
+    font-weight: bold;
+    text-decoration:none;
 }
